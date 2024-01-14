@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "64735d2a1dc8a3fca723fd72"
+  },
+  "reviewTitle": "Yakuza Games",
+  "reviewImage": "yakuza.jpg",
+  "reviewDescription": "Cualquiera que haya jugado a la saga Yakuza os puede decir que se trata de una de las obras más grandes (e infravaloradas) que nos han dejado las últimas generaciones. Toshihiro Nagoshi, al frente del estudio Ryu Ga Gotoku de Sega, supo aprovechar alguno de los elementos de Shenmue para invitarnos a vivir una historia mucha más compleja y adulta, ambientada en los bajos fondos de Tokio. Kiryu Kazuma, el dragón de la familia Dojima, nos llevaba de la mano por una historia de traición, honor, personajes llenos de matices y un sentido del humor muy especial. ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6473672b1dc8a3fca723fd99"
+  },
+  "reviewTitle": "Devil May Cry 5",
+  "reviewImage": "dmc5r.jpg",
+  "reviewDescription": "Se trata de un título que se disfruta más cuanto mejor se juega. La posibilidad de usar el modo asistido está ahí, desde luego, pero no hay nada como encadenar ataques diferentes y ver cómo el medidor de estilo crece y la intensidad de la música va en aumento. Y en ese sentido, se han hecho varios ajustes: conseguir la calificación S (Savage!) en combate es ahora más fácil que nunca, lo que sin duda ayudará a que los jugadores menos hábiles se motiven. Lo que es complicado conseguir y mantener es SSS (Smokin' Sexy Style!!), así que los veteranos también quedarán satisfechos. Esto no funciona tan bien de cara a los resultados globales de las misiones, donde la calificación máxima sigue siendo sólo S. ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64748c6e2dbf20c4cbb6939d"
+  },
+  "reviewTitle": "Undertale",
+  "reviewImage": "undertaler.jpg",
+  "reviewDescription": "\"Jugad a Undertale ya\". Pocos juegos nos han llevado a comenzar su análisis con una frase tan directa y contundente como esta que acabáis de leer, pero nos ha sido imposible encontrar otra forma de abrir este artículo, ya que cualquier cosa que os digamos durante las próximas líneas difícilmente harán honor a la irrepetible experiencia que hemos vivido jugando a esta maravilla que nos ha vuelto a recordar el motivo por el que amamos tanto este hobby que todos compartimos.",
+  "__v": 0
+}]

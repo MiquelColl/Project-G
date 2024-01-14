@@ -1,0 +1,51 @@
+export default class GameService {
+
+    static URL_API= 'http://127.0.0.1:8800/api/games';
+    static HEADERS = {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    }
+
+    static getGamesList() {
+        
+        return fetch(this.URL_API)
+        
+            .then(res => res.json())
+            .catch(error => error);
+    }
+
+    static insertGame(params) {
+        const options = {
+            method: 'POST',
+            headers: this.HEADERS,
+            body: JSON.stringify(params)
+        };
+        return fetch(this.URL_API, options)
+        .then(response => response.json())
+        .catch(error => error);
+    }
+
+    static delete(id) {
+        const options = { method: 'DELETE' };
+        return fetch(`${this.URL_API}/${id}`, options)
+            .then(response => response.json())
+            // .catch(error => error);
+    }
+
+    static update(params) {
+        const options = {
+            method: 'PUT',
+            headers: this.HEADERS,
+            body: JSON.stringify(params)
+        };
+        return fetch(`${this.URL_API}`, options)
+            .then(response => response.json())
+            .catch(error => error);
+    }
+
+    static searchItemByName(name) {
+        return fetch(`${this.URL_API}/search/${name}`)
+            .then(res => res.json())
+            .catch(error => error);
+    }
+}

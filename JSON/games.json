@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "646a61ce9161725776036ca7"
+  },
+  "gameTitle": "Resident Evil 4",
+  "gameDescription": "ResidenEvil4",
+  "gamePrice": 59.99,
+  "gameImage": "re4.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6475dacc1847c592697c3ea8"
+  },
+  "gameTitle": "Undertale",
+  "gameDescription": "A Game",
+  "gamePrice": 9.99,
+  "gameImage": "undertale.jpg",
+  "gameDeveloper": "Toby Fox",
+  "gamePegi": 9,
+  "gameCategory": "Adventure",
+  "__v": 0
+}]
